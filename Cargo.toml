@@ -15,10 +15,11 @@ debug = false
 debug-assertions = false
 
 [package.metadata.deb]
-depends = "udev"
+depends = "systemd"
 extended-description = """\
 providing ip over usb to a connected phone/tablet/...
 """
 assets = [
-    ["ecm.scheme", "tmp/ecm.scheme", "755"]
+    ["ecm.scheme", "tmp/", "755"],
+    ["usb-gadget.service", "lib/systemd/system/", "755"]
 ]

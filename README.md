@@ -22,4 +22,4 @@ This project bases on talks and articles by Andrzej Pietrasiewicz. Thanks for yo
 
 https://github.com/kopasiak/gt
 
-How to build all tools are found here: https://www.collabora.com/news-and-blog/blog/2019/06/24/using-dummy-hcd/
+How to build all tools could be found here: https://www.collabora.com/news-and-blog/blog/2019/06/24/using-dummy-hcd/
