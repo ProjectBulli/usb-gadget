@@ -1,5 +1,7 @@
 # usb-gadget
 
+## sources of knowledge
+
 This project bases on talks and articles by Andrzej Pietrasiewicz. Thanks for your work Andrzej!
 
  "Make your own USB gadget" https://www.youtube.com/watch?v=ufzLQ4PSwW4
@@ -15,3 +17,9 @@ This project bases on talks and articles by Andrzej Pietrasiewicz. Thanks for yo
  "Modern USB gadget on Linux & how to integrate it with systemd (Part 2)" https://www.collabora.com/news-and-blog/blog/2019/03/27/modern-usb-gadget-on-linux-and-how-to-integrate-it-with-systemd-part-2/
  
  "Using dummy-hcd to play with USB gadgets" https://www.collabora.com/news-and-blog/blog/2019/06/24/using-dummy-hcd/
+
+## tools
+
+https://github.com/kopasiak/gt
+
+How to build all tools are found here: https://www.collabora.com/news-and-blog/blog/2019/06/24/using-dummy-hcd/
