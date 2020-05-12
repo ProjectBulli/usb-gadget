@@ -1,0 +1,24 @@
+[package]
+name = "usb-gadget"
+version = "0.1.0"
+authors = ["nexos"]
+edition = "2018"
+readme = "README.md"
+description = "providing ip over usb to a connected phone/tablet/..."
+
+[dependencies]
+
+[profile.release]
+lto = true
+panic = 'abort'
+debug = false
+debug-assertions = false
+
+[package.metadata.deb]
+depends = "udev"
+extended-description = """\
+providing ip over usb to a connected phone/tablet/...
+"""
+assets = [
+    ["ecm.scheme", "tmp/ecm.scheme", "755"]
+]
